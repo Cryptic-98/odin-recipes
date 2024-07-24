@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 165, 0);
+    font-family: Helvetica, "DejaVu Sans", sans-serif;
+}
+.main{
+    color: rgb(255, 0, 0);
+}
+.lasagna-img{
+    width: 400px;
+    height: 283px;
+}
+.description{
+    font-weight: 800;
+}
+.subheading1{
+    color: rgb(255, 255, 255);
+}
+.subheading2{
+    color: rgb(183, 242, 242);
+}

@@ -1,0 +1,11 @@
+body{
+    background-color: orange;
+    font-family: Helvetica, "DejaVu Sans", sans-serif;
+}
+.heading1{
+    color: red;
+    text-align: center;
+}
+li, a{
+    color: black;
+}
