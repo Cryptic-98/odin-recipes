@@ -1,24 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+body {
     background-color: orange;
     font-family: Helvetica, "DejaVu Sans", sans-serif;
 }
-.heading1{
+.heading1 {
     color: red;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 25px;
 }
-ul{
+.recipe-list {
+    display: flex;
+}
+.recipe-list li{
+    list-style: none;
     text-align: center;
+    flex: 1;
 }
-li{
-    display: inline;
-    margin: auto 20px;
-}
-li, a{
+a {
+    text-decoration: none;
     color: black;
+    font-size: 20px;
 }
