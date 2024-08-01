@@ -7,21 +7,32 @@ body {
     font-family: Helvetica, "DejaVu Sans", sans-serif;
 }
 .heading1 {
-    color: red;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 25px;
+    font-size: 35px;
+    margin-bottom: 90px;
 }
-.recipe-list {
+.heading1 h1 {
+    margin: 25px auto;
+}
+.navbar {
     display: flex;
+    flex-direction: column;
+    font-size: 35px;
 }
-.recipe-list li{
+.navbar li {
     list-style: none;
-    text-align: center;
-    flex: 1;
+    height: 189px;
+    display: flex;
+    border-top: 4px solid;
 }
-a {
+.navbar li:hover {
+    background-color: red;
+}
+.navbar li a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: red;
+    margin: auto
+}
+.navbar li a:hover{
+    color: white;
 }
